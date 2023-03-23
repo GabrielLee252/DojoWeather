@@ -6,14 +6,27 @@
 /* nav bar */
 .nav {
     display: flex;
-    justify-content: space-between;
-    align-items: end;
+    justify-content: center;
     height: 60px;
     background-color: rgb(159, 197, 248);
+    color: white;
+}
+
+.navbox {
+    display: flex;
+    align-items: center;
 }
 
 .cities {
+    font-size: larger;
     display: flex;
-    justify-content: space-between;
-    margin-right: ;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.cities li {
+    margin-bottom: 10px;
+    margin-right: 50px;
+    margin-left: 100px;
 }
